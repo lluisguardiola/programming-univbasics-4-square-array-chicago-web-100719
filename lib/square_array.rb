@@ -3,7 +3,7 @@ def square_array(array)
   
   while array[counter] do
     squared_element=[array[counter]*array[counter]]
-    new_array = [new_array.concat(squared_element)]
+    new_array = 
     counter += 1
   end
 end
